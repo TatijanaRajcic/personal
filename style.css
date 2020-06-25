@@ -24,6 +24,12 @@ body section {
   width: 50%;
 }
 
+@media screen and (max-width: 992px) {
+  body section {
+    width: 100%;
+  }
+}
+
 section h1 {
   text-align: center;
 }
