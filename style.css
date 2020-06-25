@@ -14,7 +14,8 @@ body > h1 {
   width: 100%;
   text-align: center;
   font-size: 3rem;
-  background: linear-gradient(#dceed1, yellow);
+  background: black;
+  color: white;
   padding: 20px 0;
   margin: 0;
 }
