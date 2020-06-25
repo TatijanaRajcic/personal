@@ -1,0 +1,54 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0;
+  font-family: "MuseoModerno", cursive;
+  /* font-family: "Roboto", sans-serif; */
+}
+
+body > h1 {
+  width: 100%;
+  text-align: center;
+  font-size: 3rem;
+  background: linear-gradient(#aac0aa, yellow);
+  padding: 20px 0;
+  margin: 0;
+}
+
+body section {
+  width: 50%;
+}
+
+section h1 {
+  text-align: center;
+}
+
+section {
+  padding: 30px;
+}
+
+section:first-of-type {
+  background: #aac0aa;
+}
+
+section:last-of-type {
+  background: #dceed1;
+}
+
+.conclusion {
+  font-weight: bold;
+  background: yellow;
+  width: fit-content;
+}
+
+a {
+  color: black;
+}
+
+.none {
+  /* list-style-type: none; */
+}
